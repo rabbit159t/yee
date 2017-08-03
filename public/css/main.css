@@ -10,7 +10,7 @@ body {
     color: #5a5a5a;
 }
 
-.mycontainer{
+.mycontainer {
     padding-top: 60px;
 }
 
@@ -93,6 +93,15 @@ body {
 .scroll-ul {
     height: 200px;
     overflow: scroll;
+}
+
+.title-bible {
+    font-size: 18px;
+    color: #2828FF;
+}
+
+.text-bible {
+    font-size: 16px;
 }
 
 

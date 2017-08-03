@@ -31,13 +31,11 @@
     var myInterval = setInterval('load()', 100);
     function load() {
         if (bible) {
-            alert("123")
             return;
         }
         else{
             bible = JSON.parse(document.getElementById('bibleAll').innerHTML);
             document.getElementById('bibleAll').innerHTML = "";
-            alert("clear");
             clearInterval ( myInterval );
         }
     }
@@ -55,9 +53,9 @@
         document.getElementById('show').innerHTML = "";
         for (var i = 0; i < bible[vol][sec].length; i++) {
             if (bible[vol][sec][i].startsWith("0 ")) {
-                document.getElementById('show').innerHTML += "<h4>" + bible[vol][sec][i].substring(2) + "</h4>";
+                document.getElementById('show').innerHTML += "<h4 class='title-bible'>" + bible[vol][sec][i].substring(2) + "</h4>";
             } else {
-                document.getElementById('show').innerHTML += sec + ":" + bible[vol][sec][i] + "<br>";
+                document.getElementById('show').innerHTML += "<div class='text-bible'>" + sec + ":" + bible[vol][sec][i] + "</div>";
             }
         }
     }
@@ -114,13 +112,13 @@
                 {{#old}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
-                    <button type="button" class="btn btn-link"><a href="#Content" name="{{.}}" onclick="setSec(this.name)">{{.}}</a></button>
+                    <button type="button" class="btn btn-link" name="{{.}}" onclick="setSec(this.name)"><a href="#Content">{{.}}</a></button>
                     {{/nums}}
                 </div>
                 {{/old}} {{#new}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
-                    <button type="button" class="btn btn-link"><a href="#Content" name="{{.}}" onclick="setSec(this.name)">{{.}}</a></button>
+                    <button type="button" class="btn btn-link" name="{{.}}" onclick="setSec(this.name)"><a href="#Content">{{.}}</a></button>
                     {{/nums}}
                 </div>
                 {{/new}}
