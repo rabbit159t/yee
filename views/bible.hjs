@@ -27,16 +27,17 @@
     <link href="/css/main.css" rel="stylesheet">
     <script type="text/javascript">
     var bible;
-    var vol = "genesis",sec;
+    var vol = "genesis",
+        sec;
     var myInterval = setInterval('load()', 100);
+
     function load() {
         if (bible) {
             return;
-        }
-        else{
+        } else {
             bible = JSON.parse(document.getElementById('bibleAll').innerHTML);
             document.getElementById('bibleAll').innerHTML = "";
-            clearInterval ( myInterval );
+            clearInterval(myInterval);
         }
     }
 
@@ -125,8 +126,8 @@
             </div>
         </div>
         <h2 id="Content" class="target">Content</h2>
+        <span id="show"></span>
         <div class="container">
-            <span id="show"></span>
         </div>
     </div>
     <br>
@@ -150,7 +151,7 @@
             </ul>
         </div>
     </footer>
-    <span class="hidden" id="bibleAll" >{{bible}}</span>
+    <span class="hidden" id="bibleAll">{{bible}}</span>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
