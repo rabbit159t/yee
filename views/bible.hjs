@@ -25,6 +25,43 @@
     <![endif]-->
     <!-- Custom styles for this template -->
     <link href="/css/main.css" rel="stylesheet">
+    <script type="text/javascript">
+    var bible;
+    var vol = "genesis",sec;
+    var myInterval = setInterval('load()', 100);
+    function load() {
+        if (bible) {
+            alert("123")
+            return;
+        }
+        else{
+            bible = JSON.parse(document.getElementById('bibleAll').innerHTML);
+            document.getElementById('bibleAll').innerHTML = "";
+            alert("clear");
+            clearInterval ( myInterval );
+        }
+    }
+
+    function setVol(name) {
+        vol = name.toLowerCase();;
+    }
+
+    function setSec(name) {
+        sec = name.toLowerCase();
+        showResult();
+    }
+
+    function showResult() {
+        document.getElementById('show').innerHTML = "";
+        for (var i = 0; i < bible[vol][sec].length; i++) {
+            if (bible[vol][sec][i].startsWith("0 ")) {
+                document.getElementById('show').innerHTML += "<h4>" + bible[vol][sec][i].substring(2) + "</h4>";
+            } else {
+                document.getElementById('show').innerHTML += sec + ":" + bible[vol][sec][i] + "<br>";
+            }
+        }
+    }
+    </script>
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -51,7 +88,7 @@
         </div>
     </nav>
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container" style="padding-top: 60px;">
+    <div class="container mycontainer">
         <!-- Three columns of text below the carousel -->
         <h2 id="Bible" class="target">Bible</h2>
         <ul class="nav nav-tabs">
@@ -62,14 +99,14 @@
             <div id="Old" class="tab-pane fade in active">
                 <ul class="nav nav-tabs scroll-ul">
                     {{#old}}
-                    <li><a data-toggle="tab" href="#{{en}}">{{tw_en}}</a></li>
+                    <li><a data-toggle="tab" href="#{{en}}" name="{{en}}" onclick="setVol(this.name)">{{tw}} {{en}}</a></li>
                     {{/old}}
                 </ul>
             </div>
             <div id="New" class="tab-pane fade">
                 <ul class="nav nav-tabs scroll-ul">
                     {{#new}}
-                    <li><a data-toggle="tab" href="#{{en}}">{{tw_en}}</a></li>
+                    <li><a data-toggle="tab" href="#{{en}}" name="{{en}}" onclick="setVol(this.name)">{{tw}} {{en}}</a></li>
                     {{/new}}
                 </ul>
             </div>
@@ -77,17 +114,21 @@
                 {{#old}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
-                    <button type="button" class="btn btn-link">{{.}}</button>
+                    <button type="button" class="btn btn-link"><a href="#Content" name="{{.}}" onclick="setSec(this.name)">{{.}}</a></button>
                     {{/nums}}
                 </div>
                 {{/old}} {{#new}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
-                    <button type="button" class="btn btn-link">{{.}}</button>
+                    <button type="button" class="btn btn-link"><a href="#Content" name="{{.}}" onclick="setSec(this.name)">{{.}}</a></button>
                     {{/nums}}
                 </div>
                 {{/new}}
             </div>
+        </div>
+        <h2 id="Content" class="target">Content</h2>
+        <div class="container">
+            <span id="show"></span>
         </div>
     </div>
     <br>
@@ -111,6 +152,7 @@
             </ul>
         </div>
     </footer>
+    <span class="hidden" id="bibleAll" >{{bible}}</span>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

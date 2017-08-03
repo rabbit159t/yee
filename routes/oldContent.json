@@ -53,7 +53,7 @@
             49,
             50
         ],
-        "tw_en": "創 Genesis"
+        "tw": "創"
     },
     {
         "en": "Exodus",
@@ -99,7 +99,7 @@
             39,
             40
         ],
-        "tw_en": "出 Exodus"
+        "tw": "出"
     },
     {
         "en": "Leviticus",
@@ -132,7 +132,7 @@
             26,
             27
         ],
-        "tw_en": "利 Leviticus"
+        "tw": "利"
     },
     {
         "en": "Numbers",
@@ -174,7 +174,7 @@
             35,
             36
         ],
-        "tw_en": "民 Numbers"
+        "tw": "民"
     },
     {
         "en": "Deuteronomy",
@@ -214,7 +214,7 @@
             33,
             34
         ],
-        "tw_en": "申 Deuteronomy"
+        "tw": "申"
     },
     {
         "en": "Joshua",
@@ -244,7 +244,7 @@
             23,
             24
         ],
-        "tw_en": "書 Joshua"
+        "tw": "書"
     },
     {
         "en": "Judges",
@@ -271,7 +271,7 @@
             20,
             21
         ],
-        "tw_en": "士 Judges"
+        "tw": "士"
     },
     {
         "en": "Ruth",
@@ -281,7 +281,7 @@
             3,
             4
         ],
-        "tw_en": "得 Ruth"
+        "tw": "得"
     },
     {
         "en": "1_Samuel",
@@ -318,7 +318,7 @@
             30,
             31
         ],
-        "tw_en": "撒上 1_Samuel"
+        "tw": "撒上"
     },
     {
         "en": "2_Samuel",
@@ -348,7 +348,7 @@
             23,
             24
         ],
-        "tw_en": "撒下 2_Samuel"
+        "tw": "撒下"
     },
     {
         "en": "1_Kings",
@@ -376,7 +376,7 @@
             21,
             22
         ],
-        "tw_en": "王上 1_Kings"
+        "tw": "王上"
     },
     {
         "en": "2_Kings",
@@ -407,7 +407,7 @@
             24,
             25
         ],
-        "tw_en": "王下 2_Kings"
+        "tw": "王下"
     },
     {
         "en": "1_Chronicles",
@@ -442,7 +442,7 @@
             28,
             29
         ],
-        "tw_en": "代上 1_Chronicles"
+        "tw": "代上"
     },
     {
         "en": "2_Chronicles",
@@ -484,7 +484,7 @@
             35,
             36
         ],
-        "tw_en": "代下 2_Chronicles"
+        "tw": "代下"
     },
     {
         "en": "Ezra",
@@ -500,7 +500,7 @@
             9,
             10
         ],
-        "tw_en": "拉 Ezra"
+        "tw": "拉"
     },
     {
         "en": "Nehemiah",
@@ -519,7 +519,7 @@
             12,
             13
         ],
-        "tw_en": "尼 Nehemiah"
+        "tw": "尼"
     },
     {
         "en": "Esther",
@@ -535,7 +535,7 @@
             9,
             10
         ],
-        "tw_en": "斯 Esther"
+        "tw": "斯"
     },
     {
         "en": "Job",
@@ -583,7 +583,7 @@
             41,
             42
         ],
-        "tw_en": "伯 Job"
+        "tw": "伯"
     },
     {
         "en": "Psalms",
@@ -739,7 +739,7 @@
             149,
             150
         ],
-        "tw_en": "詩 Psalms"
+        "tw": "詩"
     },
     {
         "en": "Proverbs",
@@ -776,7 +776,7 @@
             30,
             31
         ],
-        "tw_en": "箴 Proverbs"
+        "tw": "箴"
     },
     {
         "en": "Ecclesiastes",
@@ -794,7 +794,7 @@
             11,
             12
         ],
-        "tw_en": "傳 Ecclesiastes"
+        "tw": "傳"
     },
     {
         "en": "Songs",
@@ -808,7 +808,7 @@
             7,
             8
         ],
-        "tw_en": "歌 Songs"
+        "tw": "歌"
     },
     {
         "en": "Isaiah",
@@ -880,7 +880,7 @@
             65,
             66
         ],
-        "tw_en": "賽 Isaiah"
+        "tw": "賽"
     },
     {
         "en": "Jeremiah",
@@ -938,7 +938,7 @@
             51,
             52
         ],
-        "tw_en": "耶 Jeremiah"
+        "tw": "耶"
     },
     {
         "en": "Lamentations",
@@ -949,7 +949,7 @@
             4,
             5
         ],
-        "tw_en": "哀 Lamentations"
+        "tw": "哀"
     },
     {
         "en": "Ezekiel",
@@ -1003,7 +1003,7 @@
             47,
             48
         ],
-        "tw_en": "結 Ezekiel"
+        "tw": "結"
     },
     {
         "en": "Daniel",
@@ -1021,7 +1021,7 @@
             11,
             12
         ],
-        "tw_en": "但 Daniel"
+        "tw": "但"
     },
     {
         "en": "Hosea",
@@ -1041,7 +1041,7 @@
             13,
             14
         ],
-        "tw_en": "何 Hosea"
+        "tw": "何"
     },
     {
         "en": "Joel",
@@ -1050,7 +1050,7 @@
             2,
             3
         ],
-        "tw_en": "珥 Joel"
+        "tw": "珥"
     },
     {
         "en": "Amos",
@@ -1065,14 +1065,14 @@
             8,
             9
         ],
-        "tw_en": "摩 Amos"
+        "tw": "摩"
     },
     {
         "en": "Obadiah",
         "nums": [
             1
         ],
-        "tw_en": "俄 Obadiah"
+        "tw": "俄"
     },
     {
         "en": "Jonah",
@@ -1082,7 +1082,7 @@
             3,
             4
         ],
-        "tw_en": "拿 Jonah"
+        "tw": "拿"
     },
     {
         "en": "Micah",
@@ -1095,7 +1095,7 @@
             6,
             7
         ],
-        "tw_en": "彌 Micah"
+        "tw": "彌"
     },
     {
         "en": "Nahum",
@@ -1104,7 +1104,7 @@
             2,
             3
         ],
-        "tw_en": "鴻 Nahum"
+        "tw": "鴻"
     },
     {
         "en": "Habakkuk",
@@ -1113,7 +1113,7 @@
             2,
             3
         ],
-        "tw_en": "哈 Habakkuk"
+        "tw": "哈"
     },
     {
         "en": "Zephaniah",
@@ -1122,7 +1122,7 @@
             2,
             3
         ],
-        "tw_en": "番 Zephaniah"
+        "tw": "番"
     },
     {
         "en": "Haggai",
@@ -1130,7 +1130,7 @@
             1,
             2
         ],
-        "tw_en": "該 Haggai"
+        "tw": "該"
     },
     {
         "en": "Zechariah",
@@ -1150,7 +1150,7 @@
             13,
             14
         ],
-        "tw_en": "亞 Zechariah"
+        "tw": "亞"
     },
     {
         "en": "Malachi",
@@ -1160,6 +1160,6 @@
             3,
             4
         ],
-        "tw_en": "瑪 Malachi"
+        "tw": "瑪"
     }
 ]

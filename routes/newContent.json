@@ -31,7 +31,7 @@
             27,
             28
         ],
-        "tw_en": "太 Matthew"
+        "tw": "太"
     },
     {
         "en": "Mark",
@@ -53,7 +53,7 @@
             15,
             16
         ],
-        "tw_en": "可 Mark"
+        "tw": "可"
     },
     {
         "en": "Luke",
@@ -83,7 +83,7 @@
             23,
             24
         ],
-        "tw_en": "路 Luke"
+        "tw": "路"
     },
     {
         "en": "John",
@@ -110,7 +110,7 @@
             20,
             21
         ],
-        "tw_en": "約 John"
+        "tw": "約"
     },
     {
         "en": "Acts",
@@ -144,7 +144,7 @@
             27,
             28
         ],
-        "tw_en": "徒 Acts"
+        "tw": "徒"
     },
     {
         "en": "Romans",
@@ -166,7 +166,7 @@
             15,
             16
         ],
-        "tw_en": "羅 Romans"
+        "tw": "羅"
     },
     {
         "en": "1_Corinthians",
@@ -188,7 +188,7 @@
             15,
             16
         ],
-        "tw_en": "林前 1_Corinthians"
+        "tw": "林前"
     },
     {
         "en": "2_Corinthians",
@@ -207,7 +207,7 @@
             12,
             13
         ],
-        "tw_en": "林後 2_Corinthians"
+        "tw": "林後"
     },
     {
         "en": "Galatians",
@@ -219,7 +219,7 @@
             5,
             6
         ],
-        "tw_en": "加 Galatians"
+        "tw": "加"
     },
     {
         "en": "Ephesians",
@@ -231,7 +231,7 @@
             5,
             6
         ],
-        "tw_en": "弗 Ephesians"
+        "tw": "弗"
     },
     {
         "en": "Philippians",
@@ -241,7 +241,7 @@
             3,
             4
         ],
-        "tw_en": "腓 Philippians"
+        "tw": "腓"
     },
     {
         "en": "Colossians",
@@ -251,7 +251,7 @@
             3,
             4
         ],
-        "tw_en": "西 Colossians"
+        "tw": "西"
     },
     {
         "en": "1_Thessalonians",
@@ -262,7 +262,7 @@
             4,
             5
         ],
-        "tw_en": "帖前 1_Thessalonians"
+        "tw": "帖前"
     },
     {
         "en": "2_Thessalonians",
@@ -271,7 +271,7 @@
             2,
             3
         ],
-        "tw_en": "帖後 2_Thessalonians"
+        "tw": "帖後"
     },
     {
         "en": "1_Timothy",
@@ -283,7 +283,7 @@
             5,
             6
         ],
-        "tw_en": "提前 1_Timothy"
+        "tw": "提前"
     },
     {
         "en": "2_Timothy",
@@ -293,7 +293,7 @@
             3,
             4
         ],
-        "tw_en": "提後 2_Timothy"
+        "tw": "提後"
     },
     {
         "en": "Titus",
@@ -302,14 +302,14 @@
             2,
             3
         ],
-        "tw_en": "多 Titus"
+        "tw": "多"
     },
     {
         "en": "Philemon",
         "nums": [
             1
         ],
-        "tw_en": "門 Philemon"
+        "tw": "門"
     },
     {
         "en": "Hebrews",
@@ -328,7 +328,7 @@
             12,
             13
         ],
-        "tw_en": "來 Hebrews"
+        "tw": "來"
     },
     {
         "en": "James",
@@ -339,7 +339,7 @@
             4,
             5
         ],
-        "tw_en": "雅 James"
+        "tw": "雅"
     },
     {
         "en": "1_Peter",
@@ -350,7 +350,7 @@
             4,
             5
         ],
-        "tw_en": "彼前 1_Peter"
+        "tw": "彼前"
     },
     {
         "en": "2_Peter",
@@ -359,7 +359,7 @@
             2,
             3
         ],
-        "tw_en": "彼後 2_Peter"
+        "tw": "彼後"
     },
     {
         "en": "1_John",
@@ -370,28 +370,28 @@
             4,
             5
         ],
-        "tw_en": "約一 1_John"
+        "tw": "約一"
     },
     {
         "en": "2_John",
         "nums": [
             1
         ],
-        "tw_en": "約二 2_John"
+        "tw": "約二"
     },
     {
         "en": "3_John",
         "nums": [
             1
         ],
-        "tw_en": "約三 3_John"
+        "tw": "約三"
     },
     {
         "en": "Jude",
         "nums": [
             1
         ],
-        "tw_en": "猶 Jude"
+        "tw": "猶"
     },
     {
         "en": "Revelation",
@@ -419,6 +419,6 @@
             21,
             22
         ],
-        "tw_en": "啟 Revelation"
+        "tw": "啟"
     }
 ]
