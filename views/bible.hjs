@@ -60,20 +60,11 @@
         </ul>
         <div class="tab-content">
             <div id="Old" class="tab-pane fade in active">
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs" style="overflow: auto">
                     {{#old}}
                     <li><a data-toggle="tab" href="#{{en}}">{{tw_en}}</a></li>
                     {{/old}}
                 </ul>
-            </div>
-            <div class="tab-content">
-                {{#old}}
-                <div id="{{en}}" class="tab-pane fade">
-                    {{#nums}}
-                    <button type="button" class="btn btn-link">{{.}}</button>
-                    {{/nums}}
-                </div>
-                {{/old}}
             </div>
             <div id="New" class="tab-pane fade">
                 <ul class="nav nav-tabs">
@@ -83,7 +74,13 @@
                 </ul>
             </div>
             <div class="tab-content">
-                {{#new}}
+                {{#old}}
+                <div id="{{en}}" class="tab-pane fade">
+                    {{#nums}}
+                    <button type="button" class="btn btn-link">{{.}}</button>
+                    {{/nums}}
+                </div>
+                {{/old}} {{#new}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
                     <button type="button" class="btn btn-link">{{.}}</button>
