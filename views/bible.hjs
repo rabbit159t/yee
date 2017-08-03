@@ -60,7 +60,7 @@
         </ul>
         <div class="tab-content">
             <div id="Old" class="tab-pane fade in active">
-                <ul class="nav nav-tabs" style="overflow: auto">
+                <ul class="nav nav-tabs" style="height: 200px; overflow: scroll;">
                     {{#old}}
                     <li><a data-toggle="tab" href="#{{en}}">{{tw_en}}</a></li>
                     {{/old}}
