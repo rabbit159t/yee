@@ -14,8 +14,6 @@ for (var i = 0, flag = false; i < content["en"].length; i++) {
         oldTestament.push(content["en"][i]);
     }
 }
-console.log(oldTestament);
-console.log(newTestament);
 /* GET users listing. */
 router.get('/', function(req, res, next) {
     res.render('bible', {
