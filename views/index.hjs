@@ -111,7 +111,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="padding-top: 60px;">
         <h2 id="About" class="target text-center">About</h2>
-        <div class="row">
+        <div class="row text-center">
             <div class="col-lg-4 col-xs-6">
                 <img class="img-circle" src="img/about/001.jpg" alt="alt" width="140" height="140">
                 <h2>001</h2>
@@ -168,15 +168,6 @@
             </div>
         </div>
         <hr> {{/weekly}}
-        <!-- <div class="row">
-            <div class="col-md-7 col-md-push-5">
-                <h2>1<span class="text-muted">0.0</span></h2>
-                <p>~</p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-                <img class="img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-            </div>
-        </div>-->
     </div>
     <!-- /.container -->
     <!-- Footer -->
@@ -185,17 +176,15 @@
             <p class="pull-right">
                 <a href="#">Top</a>
             </p>
-            <ul class="list-inline">
-                <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-                <li><a href="https://www.facebook.com/rabbit159t" class="fa fa-facebook-official" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://www.instagram.com/jyun_hao/" class="fa fa-instagram" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://github.com/rabbit159t" class="fa fa-github" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://www.linkedin.com/in/%E4%BF%8A%E8%B1%AA-%E6%9E%97-451401101/" class="fa fa-linkedin" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="#" class="fa fa-google-plus" style="font-size:36px" target="_blank"></a></li>
-            </ul>
-            <ul class="list-inline">
-                <li>&copy;Rabbit. All rights reserved.</li>
-            </ul>
+            <div class="fooer-center">
+                <ul class="list-inline">
+                    <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+                    <li><a href="https://www.facebook.com/groups/1884925705074616/" class="fa fa-facebook-official" style="font-size:36px" target="_blank"></a></li>
+                </ul>
+                <ul class="list-inline">
+                    <li>&copy;Rabbit. All rights reserved.</li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap core JavaScript

@@ -143,17 +143,15 @@
             <p class="pull-right">
                 <a href="#">Top</a>
             </p>
-            <ul class="list-inline">
-                <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-                <li><a href="https://www.facebook.com/rabbit159t" class="fa fa-facebook-official" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://www.instagram.com/jyun_hao/" class="fa fa-instagram" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://github.com/rabbit159t" class="fa fa-github" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="https://www.linkedin.com/in/%E4%BF%8A%E8%B1%AA-%E6%9E%97-451401101/" class="fa fa-linkedin" style="font-size:36px" target="_blank"></a></li>
-                <li><a href="#" class="fa fa-google-plus" style="font-size:36px" target="_blank"></a></li>
-            </ul>
-            <ul class="list-inline">
-                <li>&copy;Rabbit. All rights reserved.</li>
-            </ul>
+            <div class="fooer-center">
+                <ul class="list-inline">
+                    <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+                    <li><a href="https://www.facebook.com/groups/1884925705074616/" class="fa fa-facebook-official" style="font-size:36px" target="_blank"></a></li>
+                </ul>
+                <ul class="list-inline">
+                    <li>&copy;Rabbit. All rights reserved.</li>
+                </ul>
+            </div>
         </div>
     </footer>
     <span class="hidden" id="bibleAll">{{bible}}</span>
