@@ -110,7 +110,7 @@
     </nav>
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="padding-top: 60px;">
-        <h2 id="About" class="target text-center">About</h2>
+        <h2 id="About" class="target text-center">About Hi</h2>
         <div class="row text-center">
             <div class="col-lg-4 col-xs-6">
                 <img class="img-circle" src="img/about/001.jpg" alt="alt" width="140" height="140">

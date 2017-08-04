@@ -58,9 +58,9 @@
         document.getElementById('show').innerHTML = "";
         for (var i = 0; i < bible[vol][sec].length; i++) {
             if (bible[vol][sec][i].startsWith("0 ")) {
-                document.getElementById('show').innerHTML += "<h4 class='title-bible'>" + bible[vol][sec][i].substring(2) + "</h4>";
+                document.getElementById('show').innerHTML += "<h4 class='title-bible myfont-family'>" + bible[vol][sec][i].substring(2) + "</h4>";
             } else {
-                document.getElementById('show').innerHTML += "<div class='text-bible'>" + sec + ":" + bible[vol][sec][i] + "</div>";
+                document.getElementById('show').innerHTML += "<div class='text-bible myfont-family'>" + sec + ":" + bible[vol][sec][i] + "</div>";
             }
         }
     }

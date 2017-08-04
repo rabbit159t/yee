@@ -6,6 +6,17 @@ body,
     height: 100%;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,.myfont-family {
+    font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif, Arial;
+    /*font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+}
+
 body {
     color: #5a5a5a;
 }
@@ -73,6 +84,7 @@ body {
 
 .title-bible {
     font-size: 18px;
+    font-weight: bold;
     color: #2828FF;
 }
 
@@ -80,9 +92,14 @@ body {
     font-size: 16px;
 }
 
-.fooer-center{
+.fooer-center {
     text-align: center;
 }
+
+
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
