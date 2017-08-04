@@ -42,7 +42,10 @@
     }
 
     function setVol(name) {
-        vol = name.toLowerCase();;
+        document.getElementById('Content').innerHTML = name;
+        vol = name.toLowerCase();
+        document.getElementById('Content').style = "display: block;";
+        document.getElementById('Chapter').style = "display: block;";
     }
 
     function setSec(name) {
@@ -110,6 +113,7 @@
                 </ul>
             </div>
             <div class="tab-content">
+                <h2 id="Chapter" style="display: none">Chapter</h2>
                 {{#old}}
                 <div id="{{en}}" class="tab-pane fade">
                     {{#nums}}
@@ -125,7 +129,7 @@
                 {{/new}}
             </div>
         </div>
-        <h2 id="Content" class="target">Content</h2>
+        <h2 id="Content" class="target" style="display: none">Content</h2>
         <span id="show"></span>
         <div class="container">
         </div>
