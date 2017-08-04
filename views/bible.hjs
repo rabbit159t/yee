@@ -42,6 +42,7 @@
     }
 
     function setVol(name) {
+        document.getElementById('show').innerHTML = "";
         document.getElementById('Content').innerHTML = name;
         vol = name.toLowerCase();
         document.getElementById('Content').style = "display: block;";
