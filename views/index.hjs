@@ -110,46 +110,109 @@
     </nav>
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="padding-top: 60px;">
-        <h2 id="About" class="target text-center">About Hi</h2>
+        <h2 id="About" class="target text-center">About</h2>
         <div class="row text-center">
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/001.jpg" alt="alt" width="140" height="140">
-                <h2>001</h2>
+                <img class="img-circle" src="img/about/yee.jpg" alt="alt" width="140" height="140">
+                <h2>洪鐿瑄</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/002.jpg" alt="alt" width="140" height="140">
-                <h2>002</h2>
+                <img class="img-circle" src="img/about/catherine.jpg" alt="alt" width="140" height="140">
+                <h2>歐冠婷</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/yi_chen.jpg" alt="alt" width="140" height="140">
+                <h2>陳翊宸</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/003.jpg" alt="alt" width="140" height="140">
-                <h2>003</h2>
+                <img class="img-circle" src="img/about/wanting.jpg" alt="alt" width="140" height="140">
+                <h2>琬婷</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/004.jpg" alt="alt" width="140" height="140">
-                <h2>004</h2>
+                <img class="img-circle" src="img/about/mandy.jpg" alt="alt" width="140" height="140">
+                <h2>小亦</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/005.jpg" alt="alt" width="140" height="140">
-                <h2>005</h2>
+                <img class="img-circle" src="img/about/rabbit.jpg" alt="alt" width="140" height="140">
+                <h2>Rabbit</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/sabrina.jpg" alt="alt" width="140" height="140">
+                <h2>小華</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 col-xs-6">
-                <img class="img-circle" src="img/about/006.jpg" alt="alt" width="140" height="140">
-                <h2>006</h2>
+                <img class="img-circle" src="img/about/pei.jpg" alt="alt" width="140" height="140">
+                <h2>吳姵瑾</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/ling.jpg" alt="alt" width="140" height="140">
+                <h2>逸羚</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/lilo.jpg" alt="alt" width="140" height="140">
+                <h2>倩怡</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/lee.jpg" alt="alt" width="140" height="140">
+                <h2>俐穎</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/jenny.jpg" alt="alt" width="140" height="140">
+                <h2>佳萍</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/lin.jpg" alt="alt" width="140" height="140">
+                <h2>阿霖</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/ciao.jpg" alt="alt" width="140" height="140">
+                <h2>巧莉</h2>
+                <p>~</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-xs-6">
+                <img class="img-circle" src="img/about/chloe.jpg" alt="alt" width="140" height="140">
+                <h2>易姍</h2>
                 <p>~</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
@@ -157,17 +220,19 @@
         </div>
         <br>
         <!-- /.row -->
-        <h2 id="Weekly" class="target text-center">Weekly</h2> {{#weekly}}
-        <div class="row">
-            <div class="col-xs-6 text-center">
+        <h2 id="Weekly" class="target text-center">Weekly</h2>
+         {{#weekly}}
+         <div class="row text-center" style="padding-top: 20px;">
+            <div class="col-xs-6">
                 <h2><a href="{{link}}" target="_blank">{{date}}</a><span class="text-muted">.</span></h2>
                 <p>{{remark}}</p>
             </div>
             <div class="col-xs-6">
-                <img class="weekly-img" data-src="holder.js/150x150/auto" alt="alt" src="{{img}}">
+                <img class="img-rounded weekly-img" data-src="holder.js/150x150/auto" alt="alt" src="{{img}}">
             </div>
+        <!--<hr> -->
         </div>
-        <hr> {{/weekly}}
+        {{/weekly}}
     </div>
     <!-- /.container -->
     <!-- Footer -->
